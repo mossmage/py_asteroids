@@ -5,7 +5,13 @@ build/
 dist/
 wheels/
 *.egg-info
-game_state.jsonl
-game_events.jsonl
+game_state.jsonl/
+game_events.jsonl/
+
+# ignore pyinstall shid
+/dist/
+/build/
+/*.spec
+
 # Virtual environments
 .venv
